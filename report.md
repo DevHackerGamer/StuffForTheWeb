@@ -1,5 +1,6 @@
-1. Log in to git
-2. link remote repo
-3. create html files, index, lab2
-4. link index to lab2
-5. push to another branch, update on remote
+1. Update projects.html
+2. Update contact.html
+3. Make home look good
+4. Research more css and jss
+5. Research sleek font packages
+6. Color schemes
