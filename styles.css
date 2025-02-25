@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+html, main {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    padding: 10px;
+    font-family: m;
+    padding-top: 65px;
+}
+a:link {
+    color: plum;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8); /* White background with some opacity */
+    backdrop-filter: blur(10px); /* Blurs the content behind the navbar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Slight white border */
+    padding: 8px 0; /* Adjust navbar padding */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft bottom shadow */
+    border-radius: 15px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 12px 20px;
+    position: relative;
+}
+
+main {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; /* Light, minimalist background */
+    padding: 10px;
+}
+
+section {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+article {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Keyframes for fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
